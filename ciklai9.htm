@@ -8,10 +8,14 @@
 </head>
 <body>
     <script>
-        for(let i = 0; i < 5; i++)
+        let i = 0, sum = 0, k; // random number and cycle count
+        while(i != 5 && i != 7)
         {
-            console.log("Labas");
+            i = Math.floor(Math.random() * ((11 - 0) -0));
+            console.log(i);
+            sum += 1;
         }
+        console.log("Ivyko ciklu:" + sum);
     </script>
 </body>
 </html>

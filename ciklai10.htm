@@ -8,9 +8,14 @@
 </head>
 <body>
     <script>
-        for(let i = 0; i < 5; i++)
+        let col = 2.54, n = 20; // inches size and cm size
+        for(let i = 1; i <= n; i++)
         {
-            console.log("Labas");
+            console.log(i + " centimetru yra: " + (i / col) + " coliu.")
+        }
+        for(let i = 1; i <=n; i++)
+        {
+            console.log(i + "coliu yra: " + (i * col) + " centimetru.")
         }
     </script>
 </body>

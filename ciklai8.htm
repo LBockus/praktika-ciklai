@@ -8,9 +8,12 @@
 </head>
 <body>
     <script>
-        for(let i = 0; i < 5; i++)
+        let i = 0, sum = 0; // atsitiktinis skaicius ir ju suma
+        while(sum < 100)
         {
-            console.log("Labas");
+            i = Math.floor(Math.random() * ((11 - 0) -0));
+            console.log(i);
+            sum += i;
         }
     </script>
 </body>
