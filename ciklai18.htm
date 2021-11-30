@@ -9,12 +9,12 @@
 <body>
     <script>
         let a = 0, n = 123456789, i = 1, j = 1; // atvirkstinis skaicius, naturalusis skaicius ir skaitmenu kiekis
-        while(i <= n)
+        while(i <= n) // ieskome kiek skaicius turi skaitmenu
         {
             i *= 10;
         }
         i /= 10;
-        for(i; i >= 1; i /= 10)
+        for(i; i >= 1; i /= 10) // apverciame skaicius
         {
             a += (Math.floor(n / i) % 10 * j);
             j *= 10;          
